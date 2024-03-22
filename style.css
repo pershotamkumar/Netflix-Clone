@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'poppins', sans-serif;
+}
+.input{
+    margin-top: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vh);
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.55;
+    background: black;
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    /* width: 114px; */
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height:  calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+    
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 500px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-weight: 500px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(77, 75, 75);
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.butn{
+  padding:3px 4px;
+  font-weight:20px;
+  background-color: red; 
+  color: white;
+  border-radius: 6px;
+  gap: 4px;
+  cursor: pointer;
+}
+.butn-red{
+
+    background-color: red;
+    color: white;
+    height: 8vh;
+    width: 13vw;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.butn-nav{
+    background-color: red;
+    color: white;
+}
+.main input{
+    background-color: transparent ;
+    height: 7vh;
+    width: 24vw;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: white;
+    padding-left: 10px;
+    margin: 10px;
+  
+  }
+  .input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+ .section{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+     /* flex-wrap: wrap; */
+    
+    
+     /* font-weight: bold; */
+ }
+ /* .img{
+    width: 30vw;
+ } */
+ .secimg{
+    position: relative;
+ }
+ .secimg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    cursor: zoom-in;
+ }
+ .secimg video{
+   position: absolute;
+   top:51px;
+   right: 0;
+ }
+ .first div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 24px 0px;
+    
+ }
+ .first:first-child(){
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ .first:nth-child(1){
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+ }
+ .first:nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ .freq h2{
+    text-align: center;
+    font-size: 48px;
+ }
+ .freq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+ }
+ .faqbox{
+    display: flex;
+    background-color: gray;
+    opacity:0.44 ;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 65vw;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all;
+    
+ }
+ .faqbox:hover{
+    background-color: rgb(222, 209, 209);
+    
+ }
+
+ footer{
+    color:white;
+    max-width: 60vw;
+    margin: auto;
+   padding: 14px;
+    
+ } 
+ /* .questions{
+    width: 2px 30vw;
+    text-align: center;
+    max-width: 60vw;
+    margin: auto;
+ } */
+  footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+ .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: white;
+    /* max-width: 60vw;
+    margin: auto; */
+ }
+ .footer-items{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+ }
+ .questions{
+    padding: 34px 0px;
+ }
+.first span :first-child{
+    font-weight: bolder;
+    font-size: 45px;
+
+}
